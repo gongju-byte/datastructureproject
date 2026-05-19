@@ -1,0 +1,92 @@
+﻿  main.cpp
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(5,1): error C2059: syntax error: 'using namespace'
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(10,3): error C2065: 'string': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(10,10): error C2146: syntax error: missing ';' before identifier 'book'
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(10,10): error C2065: 'book': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(10,15): error C7732: expected an expression before ']'
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(13,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(13,50): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(14,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(14,34): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(15,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(15,33): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(16,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(16,30): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(17,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(17,24): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(18,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(20,9): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(21,4): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(23,4): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(23,15): error C2065: 'numeric_limits': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(23,30): error C2065: 'streamsize': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(23,43): error C2039: 'max': is not a member of '`global namespace''
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(23,43): error C3861: 'max': identifier not found
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(24,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(24,35): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(24,43): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(28,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(28,11): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(32,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(32,41): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(34,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(34,41): error C2065: 'book': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(34,52): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(38,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(38,39): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(39,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(39,30): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(40,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(40,32): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(41,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(41,35): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(42,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(42,25): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(43,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(44,10): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(45,5): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(46,5): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(46,16): error C2065: 'numeric_limits': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(46,31): error C2065: 'streamsize': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(46,44): error C2039: 'max': is not a member of '`global namespace''
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(46,44): error C3861: 'max': identifier not found
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(47,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(47,36): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(51,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(51,41): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(55,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(55,43): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(59,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(59,46): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(67,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(67,38): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(71,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(71,38): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(72,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(72,38): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(73,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(73,39): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(74,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(74,25): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(75,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(76,10): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(77,5): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(78,5): error C2065: 'cin': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(78,16): error C2065: 'numeric_limits': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(78,31): error C2065: 'streamsize': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(78,44): error C2039: 'max': is not a member of '`global namespace''
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(78,44): error C3861: 'max': identifier not found
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(79,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(79,36): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(83,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(83,49): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(86,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(86,50): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(93,5): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(93,38): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(97,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(97,29): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(101,4): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(101,37): error C2065: 'endl': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(103,3): error C2065: 'cout': undeclared identifier
+C:\Users\Izzati\source\repos\datastructureproject\DSA_project\main.cpp(103,11): error C2065: 'endl': undeclared identifier
