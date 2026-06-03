@@ -123,9 +123,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="header.h" />
+    <ClInclude Include="bookstore.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bookstore.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
