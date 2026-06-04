@@ -1,7 +1,7 @@
 #ifndef SORTING_H
 #define SORTING_H
 
-#include "BookStore.h" //class declaration & constructor, getdata, setdata filename (temporary)
+#include "Bookstore.h" //class declaration & constructor, getdata, setdata filename (temporary)
 
 // Definition of the Insertion Sort method 
 inline void BookStore::insertionSort(int criteria) {

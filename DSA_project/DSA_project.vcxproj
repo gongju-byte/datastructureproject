@@ -123,7 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="header.h" />
+    <ClInclude Include="Bookstore.h" />
+    <ClInclude Include="Searching.h" />
     <ClInclude Include="Sorting.h" />
   </ItemGroup>
   <ItemGroup>

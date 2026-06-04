@@ -1,7 +1,10 @@
 #include <iostream>
 #include <limits>
 #include <string>
-//#include "header.h"
+#include "Bookstore.h"
+#include "Sorting.h"
+#include "Searching.h"
+
 using namespace std;
 
 int main() {
@@ -47,17 +50,23 @@ int main() {
 				cout << "[!] Invalid input" << endl;
 				continue;
 			}
+			string key;
+			cin.ignore(); // clear buffer
+
 			if (sub == 1) {
-				cout << "----- BOOK NAME ----- " << endl;
-				//call method
+				cout << "Enter book title: ";
+				getline(cin, key);
+				bookstore.searchByTitle(key);
 			}
 			else if (sub == 2) {
-				cout << "----- BOOK AUTHOR ----- " << endl;
-				//call method
+				cout << "Enter author name: ";
+				getline(cin, key);
+				bookstore.searchByAuthor(key);
 			}
 			else if (sub == 3) {
-				cout << "----- BOOK PUBLISHER ----- " << endl;
-				//call method
+				cout << "Enter publisher: ";
+				getline(cin, key);
+				bookstore.searchByPublisher(key);
 			}
 			else if (sub == 0) {
 				continue;
