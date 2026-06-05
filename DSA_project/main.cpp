@@ -9,6 +9,8 @@ using namespace std;
 
 int main() {
 	int input, sub;
+	BookStore bookstore;
+
 	while (true) {
 		string book[] = { "title1", "title2", "title3", "title4", "title5", "title6", "title7" };
 		//Bookstore books();
