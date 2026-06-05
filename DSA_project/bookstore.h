@@ -1,8 +1,12 @@
-#pragma once
+#ifndef BOOKSTORE_H
+#define BOOKSTORE_H
+
 #include <iostream>
+#include <string>
 #include <string>
 using namespace std;
 
+using namespace std;
 const int MAX_BOOKS = 7;
 
 class Bookstore {
@@ -27,6 +31,20 @@ public:
 inline Bookstore::Bookstore() {
 }
 
+const int MAXBOOKS = 7;
+
+// Structure for a Book
+struct Book {
+    string title;
+    string author;
+    string publisher;
+    double price;
+};
+
+// BookStore Class
+class BookStore {
+public:
+    BookStore();
 inline void Bookstore::setData(string t[], string a[],
     string p[], double pr[]) {
 
@@ -68,6 +86,10 @@ inline int Bookstore::searchPublisher(string target) {
     return -1;
 }
 
+    // Search functions
+    void searchByTitle(string key);
+    void searchByAuthor(string key);
+    void searchByPublisher(string key);
 inline void Bookstore::sortPriceAscending() {
 
     int minIndex;
@@ -129,3 +151,4 @@ inline void Bookstore::displayBooks() {
 
 
 //SORT BY PRICE ASCENDING AND DESCENDING
+//
