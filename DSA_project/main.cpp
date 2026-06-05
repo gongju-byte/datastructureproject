@@ -1,10 +1,7 @@
 #include <iostream>
 #include <limits>
 #include <string>
-#include "BookStore.h"
-#include "Sorting.h"
-#include "Searching.h"
-
+#include "Bookstore.h"
 using namespace std;
 
 int main() {
