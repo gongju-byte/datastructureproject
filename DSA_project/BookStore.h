@@ -1,14 +1,39 @@
-#pragma once
+#ifndef BOOKSTORE_H
+#define BOOKSTORE_H
+
 #include <iostream>
+#include <string>
 
-class Bookstore {
+using namespace std;
 
-}
+const int MAXBOOKS = 7;
 
-//SEARCH BY TITLE, PUBLISHER, AUTHOR
-void searchByTitle(string key);
-void searchByAuthor(string key);
-void searchByPublisher(string key);
+// Structure for a Book
+struct Book {
+    string title;
+    string author;
+    string publisher;
+    double price;
+};
 
-//SORT BY PRICE ASCENDING AND DESCENDING
-//
+// BookStore Class
+class BookStore {
+public:
+    BookStore();
+
+    // Search functions
+    void searchByTitle(string key);
+    void searchByAuthor(string key);
+    void searchByPublisher(string key);
+
+    // Sorting function
+    void insertionSort(int criteria);
+
+    // Optional display
+    void displayAll();
+
+private:
+    Book books[MAXBOOKS];
+};
+
+#endif

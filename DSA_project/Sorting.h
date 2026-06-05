@@ -1,14 +1,13 @@
 #ifndef SORTING_H
 #define SORTING_H
-
 #include "BookStore.h" //class declaration & constructor, getdata, setdata filename (temporary)
 
 // Definition of the Insertion Sort method 
 inline void BookStore::insertionSort(int criteria) {
     // Outer loop: tracks unsorted boundary [cite: 75]
-    for (int i = 1; i < MAX_BOOKS; i++) {
+    for (int i = 1; i < MAXBOOKS; i++) {
         Book nextBook = books[i]; // nextBook holds the item being evaluated 
-        int j = i; [cite:78]
+        int j = i;
 
             // Inner loop: compare nextBook with elements in the sorted portion 
             while (j > 0) {
