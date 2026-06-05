@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-#include "Bookstore.h"
+#include "BookStore.h"
 
 using namespace std;
 

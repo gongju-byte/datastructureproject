@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bookstore.h">
+    <ClInclude Include="BookStore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sorting.h">

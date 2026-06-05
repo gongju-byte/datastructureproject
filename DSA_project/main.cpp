@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits>
 #include <string>
-#include "Bookstore.h"
+#include "BookStore.h"
 #include "Sorting.h"
 #include "Searching.h"
 
