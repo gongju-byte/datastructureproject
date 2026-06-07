@@ -3,13 +3,10 @@
 
 #include <iostream>
 #include <string>
-#include <string>
-using namespace std;
-
 using namespace std;
 const int MAX_BOOKS = 7;
 
-class Bookstore {
+class BookStore {
 private:
     string title[MAX_BOOKS];
     string author[MAX_BOOKS];
@@ -17,36 +14,22 @@ private:
     double price[MAX_BOOKS];
 
 public:
-    Bookstore();
-
-    void setData(string[], string[], string[], double[]);
+    BookStore();
+    void insertionSort(int criteria);
+    void setData(string t[], string a[], string p[], double pr[]);
     void displayBooks();
-    int searchTitle(string);
-    int searchAuthor(string);
-    int searchPublisher(string);
+
+    int searchTitle(string target);
+    int searchAuthor(string target);
+    int searchPublisher(string target);
     void sortPriceAscending();
     void sortPriceDescending();
 };
 
-inline Bookstore::Bookstore() {
+inline BookStore::BookStore() {
 }
 
-const int MAXBOOKS = 7;
-
-// Structure for a Book
-struct Book {
-    string title;
-    string author;
-    string publisher;
-    double price;
-};
-
-// BookStore Class
-class BookStore {
-public:
-    BookStore();
-inline void Bookstore::setData(string t[], string a[],
-    string p[], double pr[]) {
+inline void BookStore::setData(string t[], string a[],string p[], double pr[]) {
 
     for (int i = 0; i < MAX_BOOKS; i++) {
         title[i] = t[i];
@@ -56,99 +39,98 @@ inline void Bookstore::setData(string t[], string a[],
     }
 }
 
-inline int Bookstore::searchTitle(string target) {
-
+inline int BookStore::searchTitle(string target) {
     for (int i = 0; i < MAX_BOOKS; i++) {
         if (title[i] == target)
             return i;
     }
-
     return -1;
 }
 
-inline int Bookstore::searchAuthor(string target) {
-
+inline int BookStore::searchAuthor(string target) {
     for (int i = 0; i < MAX_BOOKS; i++) {
         if (author[i] == target)
             return i;
     }
-
     return -1;
 }
 
-inline int Bookstore::searchPublisher(string target) {
-
+inline int BookStore::searchPublisher(string target) {
     for (int i = 0; i < MAX_BOOKS; i++) {
         if (publisher[i] == target)
             return i;
     }
-
     return -1;
 }
 
-    // Search functions
-    void searchByTitle(string key);
-    void searchByAuthor(string key);
-    void searchByPublisher(string key);
-inline void Bookstore::sortPriceAscending() {
-
-    int minIndex;
-
+inline void BookStore::sortPriceAscending() {
     for (int i = 0; i < MAX_BOOKS - 1; i++) {
-
-        minIndex = i;
-
+        int minIndex = i;
         for (int j = i + 1; j < MAX_BOOKS; j++) {
             if (price[j] < price[minIndex])
                 minIndex = j;
         }
 
-        swap(price[i], price[minIndex]);
-        swap(title[i], title[minIndex]);
-        swap(author[i], author[minIndex]);
-        swap(publisher[i], publisher[minIndex]);
+        // Manual swap for double (price)
+        double tempPrice = price[i];
+        price[i] = price[minIndex];
+        price[minIndex] = tempPrice;
+
+        // Manual swap for string (title)
+        string tempTitle = title[i];
+        title[i] = title[minIndex];
+        title[minIndex] = tempTitle;
+
+        // Manual swap for string (author)
+        string tempAuthor = author[i];
+        author[i] = author[minIndex];
+        author[minIndex] = tempAuthor;
+
+        // Manual swap for string (publisher)
+        string tempPub = publisher[i];
+        publisher[i] = publisher[minIndex];
+        publisher[minIndex] = tempPub;
+
     }
 }
 
-inline void Bookstore::sortPriceDescending() {
-
-    int maxIndex;
-
+inline void BookStore::sortPriceDescending() {
     for (int i = 0; i < MAX_BOOKS - 1; i++) {
-
-        maxIndex = i;
-
+        int maxIndex = i;
         for (int j = i + 1; j < MAX_BOOKS; j++) {
             if (price[j] > price[maxIndex])
                 maxIndex = j;
         }
+        // Manual swap for double (price)
+        double tempPrice = price[i];
+        price[i] = price[maxIndex];
+        price[maxIndex] = tempPrice;
 
-        swap(price[i], price[maxIndex]);
-        swap(title[i], title[maxIndex]);
-        swap(author[i], author[maxIndex]);
-        swap(publisher[i], publisher[maxIndex]);
+        // Manual swap for string (title)
+        string tempTitle = title[i];
+        title[i] = title[maxIndex];
+        title[maxIndex] = tempTitle;
+
+        // Manual swap for string (author)
+        string tempAuthor = author[i];
+        author[i] = author[maxIndex];
+        author[maxIndex] = tempAuthor;
+
+        // Manual swap for string (publisher)
+        string tempPub = publisher[i];
+        publisher[i] = publisher[maxIndex];
+        publisher[maxIndex] = tempPub;
     }
 }
 
-inline void Bookstore::displayBooks() {
-
+inline void BookStore::displayBooks() {
     for (int i = 0; i < MAX_BOOKS; i++) {
-
         cout << "Title: " << title[i] << endl;
         cout << "Author: " << author[i] << endl;
         cout << "Publisher: " << publisher[i] << endl;
         cout << "Price: RM" << price[i] << endl;
-        cout << endl;
+        cout << "--------------------------------------------\n";
     }
 }
 
-
-
-
-
-
-//SEARCH BY TITLE, PUBLISHER, AUTHOR
-
-
-//SORT BY PRICE ASCENDING AND DESCENDING
-//
+#endif
