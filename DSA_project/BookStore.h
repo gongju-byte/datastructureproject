@@ -141,14 +141,3 @@ inline void BookStore::displayBooks() {
         cout << "--------------------------------------------\n";
     }
 }
-
-
-
-
-
-
-//SEARCH BY TITLE, PUBLISHER, AUTHOR
-
-
-//SORT BY PRICE ASCENDING AND DESCENDING
-//
