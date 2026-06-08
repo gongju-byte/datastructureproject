@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <string>
-#include <string>
 using namespace std;
 
 using namespace std;
@@ -90,6 +89,7 @@ inline int Bookstore::searchPublisher(string target) {
     void searchByTitle(string key);
     void searchByAuthor(string key);
     void searchByPublisher(string key);
+
 inline void Bookstore::sortPriceAscending() {
 
     int minIndex;
@@ -142,13 +142,4 @@ inline void Bookstore::displayBooks() {
     }
 }
 
-
-
-
-
-
-//SEARCH BY TITLE, PUBLISHER, AUTHOR
-
-
-//SORT BY PRICE ASCENDING AND DESCENDING
-//
+#endif
