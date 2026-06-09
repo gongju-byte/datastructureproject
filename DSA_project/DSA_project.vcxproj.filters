@@ -15,13 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BookStore.h">
+    <ClInclude Include="bookstore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sorting.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Searching.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
